@@ -1,15 +1,15 @@
 # Ejercicios de errores y excepciones
 
-#lista = [1,2,3,4]
+lista = [1,2,3,4]
 
-#print(lista[5])
+print(lista[5])
 
-#diccionario = {'nombre': 'Leo', 'edad': 31}
+# diccionario = {'nombre': 'Leo', 'edad': 31}
 
-#print(diccionario['apellido'])
+# print(diccionario['apellido'])
 
-#resultado = 10 / 0
-#print(resultado)
+resultado = 10 / 0
+print(resultado)
 
 
 #def sumar(a, b):
@@ -45,12 +45,12 @@
 #finally:
    #print('\nMe ejecuto siempre')
 
-try:
-      resultado = 16 * 5
-      print(resultado)
-except:
-   print('Hay un error. {e}')
-else:
-   print(resultado)
-finally:
-   print('Me voy a ejectur siempre')
+# try:
+#       resultado = 16 * 5
+#       print(resultado)
+# except:
+#    print('Hay un error. {e}')
+# else:
+#    print(resultado)
+# finally:
+#    print('Me voy a ejectur siempre')
